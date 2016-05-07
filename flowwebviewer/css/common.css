@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+}
+
+.graphContainer {
+	background: url('../editors/images/grid.gif');
+	cursor: move;
+	height: 1280px;
+	overflow: hidden;
+	position: relative;
+	width: 768px;
+}
+
+.flow-actions {
+	font-size: 250%;
+	position: absolute;
+	right: 0.5em;
+	text-align: right;
+	top: 0.5em;
+}
+
+.flow-actions a {
+	color: #22c0f0;
+	display: inline-block;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+.flow-actions a:hover {
+	color: #116078;
+}
+
+.qr-code {
+	left: 50%;
+	margin-left: -240px;
+	margin-top: -240px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+}
+
+.flow-link-window {
+	background-color: #fff;
+	left: 1em;
+	padding: 0.25em 0.5em;
+	position: absolute;
+	top: 1em;
+	width: 50%;
+}
+
+.flow-link-window table {
+	width: 100%;
+}
+
+.flow-link-window td {
+	padding: 0.25em 0;
+}
+
+.flow-link-window input {
+	width: 100%;
+}
+
+.readonly {
+	background-color: #ccc;
+}
