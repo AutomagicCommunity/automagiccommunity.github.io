@@ -494,7 +494,10 @@
 			}
 		}
 
-		flowXMLFilePath = decodeURIComponent($.urlParam('flow'));
+		flowXMLFilePathParam = decodeURIComponent($.urlParam('flow'));
+		if (flowXMLFilePathParam){
+			flowXMLFilePath = flowXMLFilePathParam;
+		}
 		$('#flow-download-link').attr('href', flowXMLFilePath);
 		$('#custom-flow-link-input').val(flowXMLFilePath);
 		$('#flow-full-link-input').val(window.location.href);
