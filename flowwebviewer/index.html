@@ -495,7 +495,7 @@
 		}
 
 		flowXMLFilePathParam = decodeURIComponent($.urlParam('flow'));
-		if (flowXMLFilePathParam){
+		if (flowXMLFilePathParam != "null"){
 			flowXMLFilePath = flowXMLFilePathParam;
 		}
 		$('#flow-download-link').attr('href', flowXMLFilePath);
